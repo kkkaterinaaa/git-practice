@@ -9,6 +9,8 @@ choice = input("Введите номер операции: ")
 a = float(input("Введите первое число: "))
 b = float(input("Введите второе число: "))
 
+def multiply(a, b):
+    return a*b
 
 
 def divide:
@@ -35,6 +37,3 @@ match choice:
     case _:
         print("Неверный выбор")
 
-
-def add(a, b):
-    pass
