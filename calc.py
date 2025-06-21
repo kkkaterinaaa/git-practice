@@ -9,12 +9,16 @@ choice = input("Введите номер операции: ")
 a = float(input("Введите первое число: "))
 b = float(input("Введите второе число: "))
 
+def subtract(a, b):
+    return float(a) - float(b)
+
+
 match choice:
     case "1":
         print(add(a, b))
     case "2":
         print(subtract(a, b))
-    case "3":
+    case "3":   
         print(multiply(a, b))
     case "4":
         print(divide(a, b))
@@ -24,6 +28,5 @@ match choice:
         print("Неверный выбор")
 
 
-def add(a, b):
-    return float(a) - float(b)
-    
+
+
