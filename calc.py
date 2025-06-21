@@ -10,10 +10,16 @@ a = float(input("Введите первое число: "))
 b = float(input("Введите второе число: "))
 
 
+
 def divide:
     if b != 0:
         return a/b
     return -1
+
+  
+def power(a, b):
+    return(a**b)
+
 
 match choice:
     case "1":
