@@ -9,6 +9,10 @@ choice = input("Введите номер операции: ")
 a = float(input("Введите первое число: "))
 b = float(input("Введите второе число: "))
 
+def test():
+    pass
+
+
 match choice:
     case "1":
         print(add(a, b))
@@ -22,7 +26,3 @@ match choice:
         print(power(a, b))
     case _:
         print("Неверный выбор")
-
-
-def add(a, b):
-    pass
