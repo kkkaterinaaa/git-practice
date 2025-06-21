@@ -12,8 +12,12 @@ b = float(input("Введите второе число: "))
 def multiply(a, b):
     return a*b
 
+def subtract(a, b):
+    return float(a) - float(b)
 
-def divide:
+
+
+def divide(a, b):
     if b != 0:
         return a/b
     return -1
@@ -23,12 +27,13 @@ def power(a, b):
     return(a**b)
 
 
+
 match choice:
     case "1":
         print(add(a, b))
     case "2":
         print(subtract(a, b))
-    case "3":
+    case "3":   
         print(multiply(a, b))
     case "4":
         print(divide(a,b))
@@ -36,4 +41,13 @@ match choice:
         print(power(a, b))
     case _:
         print("Неверный выбор")
+
+
+
+
+
+
+
+def add(a, b):
+    pass
 
