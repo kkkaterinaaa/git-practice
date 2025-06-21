@@ -17,7 +17,7 @@ match choice:
     case "3":
         print(multiply(a, b))
     case "4":
-        print(divide(a, b))
+        print(a/b)
     case "5":
         print(power(a, b))
     case _:
