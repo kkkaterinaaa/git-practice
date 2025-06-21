@@ -9,6 +9,14 @@ choice = input("Введите номер операции: ")
 a = float(input("Введите первое число: "))
 b = float(input("Введите второе число: "))
 
+
+
+def divide:
+    if b != 0:
+        return a/b
+    return -1
+
+  
 def power(a, b):
     return(a**b)
 
@@ -21,7 +29,7 @@ match choice:
     case "3":
         print(multiply(a, b))
     case "4":
-        print(divide(a, b))
+        print(divide(a,b))
     case "5":
         print(power(a, b))
     case _:
