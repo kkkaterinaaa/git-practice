@@ -25,3 +25,5 @@ match choice:
         print(power(a, b))
     case _:
         print("Неверный выбор")
+
+        
