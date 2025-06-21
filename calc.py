@@ -10,6 +10,10 @@ a = float(input("Введите первое число: "))
 b = float(input("Введите второе число: "))
 
 
+def test():
+    pass
+
+
 def add(a, b):
     return a+b
 
@@ -17,9 +21,9 @@ def add(a, b):
 def multiply(a, b):
     return a*b
 
+
 def subtract(a, b):
     return float(a) - float(b)
-
 
 
 def divide(a, b):
@@ -30,6 +34,7 @@ def divide(a, b):
   
 def power(a, b):
     return(a**b)
+
 
 
 match choice:
@@ -44,5 +49,4 @@ match choice:
     case "5":
         print(power(a, b))
     case _:
-
         print("Неверный выбор")
