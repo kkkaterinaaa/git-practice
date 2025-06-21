@@ -25,4 +25,5 @@ match choice:
 
 
 def add(a, b):
-    pass
+    return float(a) - float(b)
+    
